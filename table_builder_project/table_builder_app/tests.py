@@ -244,7 +244,7 @@ class AddRowToDynamicTableAPITest(BaseAPITestCase):
 class GetAllRowsInDynamicTableAPITest(BaseAPITestCase):
 
     def test_get_all_rows_in_dynamic_table_success(self):
-        table_name = "DynamicTable1"
+        table_name = "DynamicTable11"
         fields = [
             {'name': 'field1', 'type': 'string'},
             {'name': 'field2', 'type': 'integer'},
@@ -276,7 +276,7 @@ class GetAllRowsInDynamicTableAPITest(BaseAPITestCase):
         )
 
     def test_get_all_rows_in_dynamic_table_invalid_id(self):
-        table_name = "DynamicTable2"
+        table_name = "DynamicTable12"
         fields = [
             {'name': 'field1', 'type': 'string'},
             {'name': 'field2', 'type': 'integer'},

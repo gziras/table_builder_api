@@ -160,6 +160,13 @@ Below is the documentation for the API endpoints:
     ```
     You will be prompted to enter a username, email address, and password for the superuser. After entering the required information, the superuser will be created and you can login at django admin page at: `http://localhost:8000/admin/`
 
+7. Run the test suite:
+    ```
+    python manage.py test
+    ```
+
+8. To access the API, make sure you are authenticated under http://127.0.0.1:8000/api-auth/login/.
+
 ## Configuration Options
 
 ### ALLOW_FIELD_DELETION
